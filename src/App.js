@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path='/' element={<StudentLogin/>}/>
-        <Route path='/l' element={<AdminLogin/>}/>
+        <Route path='/admin_login' element={<AdminLogin/>}/>
       </Routes>
     </div>
     </BrowserRouter>
