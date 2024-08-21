@@ -1,0 +1,75 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rform{
+    height: 500px;
+    width: 400px;
+    border: solid aqua;
+    border-radius: 7px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+body{
+   background-image: url(https://www.technocrazed.com/wp-content/uploads/2015/12/black-wallpaper-to-set-as-background-28.jpg);
+}
+h2{
+    color: aqua;
+    text-align: center;
+}
+input{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border: solid black;
+    border-radius: 4px;
+    height: 30px;
+    width: 200px;
+}
+label{
+    margin-left: 8%; 
+    color:aqua;  
+}
+.name input{
+    margin-left:79px ; 
+}
+.email input{
+    margin-left:80px;
+}
+.pass input{
+    margin-left:55px;
+}
+.phone input{
+    margin-left: 12px;
+}
+.gender input{
+    height: 20px;
+    width: 30px;
+    margin-left: 10%;
+}
+.gender label{
+    margin-left: 1%;
+}
+h4{
+    text-align: center;
+    color: aquamarine;
+    margin-top: 45px;
+}
+button{
+    height:50px;
+    width: 200px;
+    border: solid aqua;
+    border-radius: 100px;
+    margin-left: 25%;
+    color:black;
+    background-color: aqua;
+}
+button:hover{
+    background-color:rebeccapurple;
+}
+input:hover{
+    background-color:rebeccapurple;
+}
+
+ 
