@@ -11,7 +11,7 @@ function AdminLogin() {
        <div className='email'><input type="email" placeholder='Email'/></div>
        <div className='password'><input type="password" placeholder='Password'/></div>
        <div className='but'><button type='submit'>Login</button></div>
-       <div className='fp'><Link>Forgetpassword?</Link></div>
+       <div className='fp1'><Link>Forgetpassword?</Link></div>
        
 
     </div>

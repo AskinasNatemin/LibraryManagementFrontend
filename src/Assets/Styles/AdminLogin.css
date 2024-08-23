@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: rgb(187, 150, 150);
 }
 .loginpage{
     height: 350px;
@@ -15,7 +15,7 @@ body{
     margin-top: 5%;
 }
 .alogin{
-    color: blue;
+    color: wheat;
     font-style: oblique;
     text-align: center;
 }
@@ -54,7 +54,7 @@ body{
     margin-left: 35%;
     margin-top: 19px;
 }
-.fp :link{
+.fp1 :link{
     text-decoration: none;
   margin-bottom: 20px;
   margin-left: 30%;
