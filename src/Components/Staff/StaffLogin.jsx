@@ -2,6 +2,7 @@ import React from 'react'
 import './StaffLogin.css'
 import { FaLockOpen } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 function StaffLogin() {
   return (
@@ -16,7 +17,7 @@ function StaffLogin() {
       </div>
       <div className="remember-forget">
         <label><input type='checkbox'/>Remember me</label>
-        <a href="">forgot password</a>
+        <Link to={'/Staff-forget-password'}>forget Password ?</Link>
       </div>
       <button type='submit'>Login</button>
       <div className='register-link'><p>Don't have an account?<a href="#">Register</a></p></div>

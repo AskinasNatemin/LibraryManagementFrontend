@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    font-family: "Merriweather", serif;
+    font-size:30px;
+}
+
+.LoginBtn{
+    height: 45px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    font-size: larger;
+}
+
+.StudentInput{
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 19px;
+    font-size: 20px;
+
+}
+
+.StudentInput::placeholder{
+    font-size: 25px;
+}
