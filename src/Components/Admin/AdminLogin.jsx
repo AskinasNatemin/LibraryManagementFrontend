@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function AdminLogin() {
   return (
-   <div>
+   <div className='loginbackground'>
     <div className='loginpage'>
        <h2 className='adminlogin'>Admin Login</h2>
        <div className='adminusername'><input type="text" placeholder='Username'/></div>

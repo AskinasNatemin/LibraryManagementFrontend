@@ -3,16 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+.loginbackground{
     background-color: rgb(187, 150, 150);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
 }
 .loginpage{
     height: 350px;
     width: 350px;
     border: solid 5px whitesmoke;
     border-radius: 7px;
-    margin-left: 35%;
-    margin-top: 5%;
+    
 }
 .adminlogin{
     color: wheat;
