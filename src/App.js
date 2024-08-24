@@ -7,6 +7,9 @@ import{BrowserRouter,Routes,Route} from 'react-router-dom';
 import AdminLogin from './Components/Admin/AdminLogin';
 import StudentSignUp from './Components/Students/StudentSignUp';
 import StudentForgetPassword from './Components/Students/StudentForgetPassword';
+import StudentOtp from './Components/Students/StudentOtp';
+import StudentOtpSuccess from './Components/Students/StudentOtpSuccess';
+import StudentOtpUnSuccess from './Components/Students/StudentOtpUnSuccess';
 function App() {
   return (
     <BrowserRouter>
@@ -15,6 +18,10 @@ function App() {
         <Route path='/' element={<StudentLogin/>}/>
         <Route path='/Student_Sign_Up' element={<StudentSignUp/>}/>
         <Route path='/Student_Forget_Password' element={<StudentForgetPassword/>}/>
+        <Route path='/Student_Otp' element={<StudentOtp/>}/>
+        <Route path='/Student_Otp_Success' element={<StudentOtpSuccess/>}/>
+        <Route path='/Student_Otp_Un_Success' element={<StudentOtpUnSuccess/>}/>
+
         <Route path='/admin_login' element={<AdminLogin/>}/>
       </Routes>
     </div>

@@ -20,7 +20,7 @@ function StudentLogin() {
               <button className='w-75 LoginBtn'>Login</button>
               </div>
               <div className='ms-4'>
-                <p>New User? <Link to={'/Student_Sign_Up'}>Signup</Link></p>
+                <p>Create new? <Link to={'/Student_Sign_Up'}>Signup</Link></p>
               </div>
             </div>
       </div>
