@@ -18,10 +18,11 @@ function App() {
         <Route path='/Student_Otp_Success' element={<StudentOtpSuccess/>}/>
         <Route path='/Student_Otp_Un_Success' element={<StudentOtpUnSuccess/>}/>
 
-        <Route path='/admin_login' element={<AdminLogin/>}/>
         <Route path='/staff-login' element={<StaffLogin/>}/>
         <Route path='/Staff-forget-password' element={<StaffForgetpassword/>}/>
+        
       <Route path='/admin_signup' element={<AdminSignup/>}/>
+        <Route path='/admin_login' element={<AdminLogin/>}/>
       </Routes>
     </div>
     </BrowserRouter>
