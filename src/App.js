@@ -1,12 +1,14 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
-import './Assets/Styles/StudentLogin.css'
+
 import StudentLogin from './Components/Students/StudentLogin';
 import{BrowserRouter,Routes,Route} from 'react-router-dom';
 import AdminLogin from './Components/Admin/AdminLogin';
 import StudentSignUp from './Components/Students/StudentSignUp';
 import StudentForgetPassword from './Components/Students/StudentForgetPassword';
+import StaffForgetpassword from './Components/Staff/StaffForgetpassword'
+import StaffLogin from './Components/Staff/StaffLogin';
 import StudentOtp from './Components/Students/StudentOtp';
 import StudentOtpSuccess from './Components/Students/StudentOtpSuccess';
 import StudentOtpUnSuccess from './Components/Students/StudentOtpUnSuccess';
@@ -23,6 +25,8 @@ function App() {
         <Route path='/Student_Otp_Un_Success' element={<StudentOtpUnSuccess/>}/>
 
         <Route path='/admin_login' element={<AdminLogin/>}/>
+        <Route path='/staff-login' element={<StaffLogin/>}/>
+        <Route path='/Staff-forget-password' element={<StaffForgetpassword/>}/>
       </Routes>
     </div>
     </BrowserRouter>
