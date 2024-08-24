@@ -6,5 +6,27 @@
 }
 
 .head{
-    font-family: "Merriweather", serif;;
+    font-family: "Merriweather", serif;
+    font-size:30px;
+}
+
+.LoginBtn{
+    height: 45px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    font-size: larger;
+}
+
+.StudentInput{
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 19px;
+    font-size: 20px;
+
+}
+
+.StudentInput::placeholder{
+    font-size: 25px;
 }
