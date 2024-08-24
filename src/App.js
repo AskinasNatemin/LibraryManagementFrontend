@@ -5,6 +5,7 @@ import './Assets/Styles/StudentLogin.css'
 import StudentLogin from './Components/Students/StudentLogin';
 import{BrowserRouter,Routes,Route} from 'react-router-dom';
 import AdminLogin from './Components/Admin/AdminLogin';
+import AdminSignup from './Components/Admin/AdminSignup';
 function App() {
   return (
     <BrowserRouter>
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<StudentLogin/>}/>
         <Route path='/admin_login' element={<AdminLogin/>}/>
+      <Route path='/admin_signup' element={<AdminSignup/>}/>
       </Routes>
     </div>
     </BrowserRouter>

@@ -9,17 +9,17 @@ body{
 .loginpage{
     height: 350px;
     width: 350px;
-    border: solid whitesmoke;
+    border: solid 5px whitesmoke;
     border-radius: 7px;
     margin-left: 35%;
     margin-top: 5%;
 }
-.alogin{
+.adminlogin{
     color: wheat;
     font-style: oblique;
     text-align: center;
 }
-.username input{
+.adminusername input{
     height: 30px;
     width: 200px;
     margin-top: 20px;
@@ -28,7 +28,7 @@ body{
     border-radius: 5px;
     margin-bottom: 10px;
 }
-.email input{
+.adminemail input{
     height: 30px;
     width: 200px;
     margin-top: 20px;
@@ -37,7 +37,7 @@ body{
     border-radius: 5px;
     margin-bottom: 10px;
 }
-.password input{
+.adminpassword input{
     height: 30px;
     width: 200px;
     margin-top: 20px;
@@ -46,7 +46,7 @@ body{
     border-radius: 5px;
     margin-bottom: 10px;
 }
-.but button{
+.adminbut button{
     height: 40px;
     width: 100px;
     border: solid whitesmoke;
@@ -54,10 +54,6 @@ body{
     margin-left: 35%;
     margin-top: 19px;
 }
-.fp1 :link{
-    text-decoration: none;
-  margin-bottom: 20px;
-  margin-left: 30%;
-}
+
 
 
