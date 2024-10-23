@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 function StaffLogin() {
   return (
   <div className='form'>
+    
     <form action="">
       <h1>STAFF LOGIN</h1>
       <div className='input-box'>
@@ -21,7 +22,6 @@ function StaffLogin() {
       </div>
       <button type='submit'>Login</button>
       <div className='register-link'><p>Don't have an account?<a href="#">Register</a></p></div>
-
     </form>
 
   </div>

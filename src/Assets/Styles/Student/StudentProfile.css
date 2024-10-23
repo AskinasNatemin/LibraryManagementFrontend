@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#input-file{
+    display: none;
+}
+
+img{
+    border-radius: 50%;
+}
+
+tbody tr th{
+    text-align: center;
+}
+
+
+table,tbody,tr,th,td{
+    border-collapse:collapse ;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 9px;
+}
+
+table{
+    margin-top: 80px;
+}
